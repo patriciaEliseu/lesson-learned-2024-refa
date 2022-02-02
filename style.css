@@ -3,7 +3,7 @@ background-color: rgb(253, 251, 251);
 font-family:'Courier New', Courier, monospace;
 }
 
-#cabecalho {
+.cabecalho {
     background-color: white;
     position: fixed;
     top: 0;
