@@ -3,13 +3,26 @@ body {
     font-family: Courier New, Courier, monospace;
 }
 
-.cabecalho {
+#cabecalho {
     background-color: white;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 60px;
+}
+
+h1 {
+    position: absolute;
+    left: 30px;
+    font-size: 60px;
+}
+
+#minha_foto {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    top: 100px;
 }
 
 footer {
