@@ -16,6 +16,8 @@ body {
     margin: auto;
     padding: 1%;
     border: chocolate;
+    font-weight: bold;
+    font-style: italic;
 }
 
 h1 {
