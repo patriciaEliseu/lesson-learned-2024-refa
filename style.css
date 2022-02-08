@@ -3,6 +3,7 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: Courier New, Courier, monospace;
     color: black;
+    font-size: medium;
 }
 
 #cabecalho {
@@ -54,4 +55,5 @@ footer {
     height: 150px;
     margin: auto;
     border-width: medium;
+    font-size: 22px;
 }
