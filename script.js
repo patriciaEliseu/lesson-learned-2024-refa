@@ -105,6 +105,26 @@ function aside() {
   body.appendChild(createAside);
 }
 
+// requisito 10
+function nav() {
+  const createNav = document.createElement("nav");
+  const link = document.querySelector("a");
+  createNav.appendChild(link);
+  body.appendChild(createNav);
+}
+
+function section() {
+  const createSection = document.createElement("section");
+
+  const aside = document.querySelector("aside");
+  const article = document.querySelector("article");
+
+  createSection.appendChild(aside);
+  createSection.appendChild(article);
+
+  body.appendChild(createSection);
+}
+
 header();
 addImg();
 tarefasAprendidas();
@@ -113,3 +133,5 @@ footer();
 link();
 article();
 aside();
+section();
+nav();
