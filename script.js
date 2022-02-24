@@ -1,4 +1,5 @@
 const body = document.querySelector("body");
+
 // requisito 2
 function header() {
   const createHeader = document.createElement("header");
@@ -12,10 +13,7 @@ function header() {
   body.appendChild(createHeader);
 }
 
-header();
-
 // requisito 3
-
 function addImg() {
   const createImg = document.createElement("img");
   createImg.setAttribute("id", "minha_foto");
@@ -23,10 +21,7 @@ function addImg() {
   body.appendChild(createImg);
 }
 
-addImg();
-
 // requisito 4
-
 function tarefasAprendidas() {
   const licoes = [
     "HTML",
@@ -52,4 +47,6 @@ function tarefasAprendidas() {
   body.appendChild(createUl);
 }
 
+header();
+addImg();
 tarefasAprendidas();
