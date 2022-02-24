@@ -1,6 +1,6 @@
+const body = document.querySelector("body");
 // requisito 2
 function header() {
-  const body = document.querySelector("body");
   const createHeader = document.createElement("header");
   createHeader.setAttribute("id", "cabecalho");
 
@@ -17,8 +17,6 @@ header();
 // requisito 3
 
 function addImg() {
-  const body = document.querySelector("body");
-
   const createImg = document.createElement("img");
   createImg.setAttribute("id", "minha_foto");
   createImg.setAttribute("src", "perfil.jpg");
@@ -26,3 +24,32 @@ function addImg() {
 }
 
 addImg();
+
+// requisito 4
+
+function tarefasAprendidas() {
+  const licoes = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "Github",
+    "For/loop",
+    "função",
+    "variáveis",
+    "constantes",
+    "condicionais",
+  ];
+
+  const createUl = document.createElement("ol");
+  createUl.setAttribute("id", "licoes_aprendidas");
+
+  for (let index = 0; index < licoes.length; index += 1) {
+    const createLi = document.createElement("li");
+    createLi.innerText = licoes[index];
+    createUl.appendChild(createLi);
+  }
+  body.appendChild(createUl);
+}
+
+tarefasAprendidas();
