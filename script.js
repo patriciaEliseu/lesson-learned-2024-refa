@@ -73,7 +73,15 @@ function tarefasAAprender() {
   body.appendChild(createUl);
 }
 
+// requisito 6
+function footer() {
+  const createFooter = document.createElement("footer");
+  createFooter.setAttribute("id", "rodape");
+  body.appendChild(createFooter);
+}
+
 header();
 addImg();
 tarefasAprendidas();
 tarefasAAprender();
+footer();
