@@ -97,6 +97,14 @@ function article() {
   body.appendChild(createArticle);
 }
 
+// requisito 9
+function aside() {
+  const createAside = document.createElement("aside");
+  createAside.innerText =
+    "Isso aqui é apenas um testo para que possa passar no requisito 8 do projeto Lessons Learned, mas isso tem nada a ver com o que de fato estou fazendo, mas só para popular esse texto com mais de trezentos e menos de seiscentos. Acredita que até aqui ainda não deu trezentos caracteres?";
+  body.appendChild(createAside);
+}
+
 header();
 addImg();
 tarefasAprendidas();
@@ -104,3 +112,4 @@ tarefasAAprender();
 footer();
 link();
 article();
+aside();
