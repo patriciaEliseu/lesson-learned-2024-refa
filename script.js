@@ -80,8 +80,18 @@ function footer() {
   body.appendChild(createFooter);
 }
 
+// requisito 7
+function link() {
+  const createLink = document.createElement("a");
+  createLink.setAttribute("href", "https://github.com/cpwaldow");
+  createLink.setAttribute("target", "_blank");
+  createLink.innerText = "Github";
+  body.appendChild(createLink);
+}
+
 header();
 addImg();
 tarefasAprendidas();
 tarefasAAprender();
 footer();
+link();
