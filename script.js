@@ -47,6 +47,33 @@ function tarefasAprendidas() {
   body.appendChild(createUl);
 }
 
+// requisito 5
+function tarefasAAprender() {
+  const licoes = [
+    "ReactJS",
+    "Flexbox",
+    "SQL",
+    "NOSQL",
+    "NodeJS",
+    "Heroku",
+    "função",
+    "variáveis",
+    "constantes",
+    "condicionais",
+  ];
+
+  const createUl = document.createElement("ul");
+  createUl.setAttribute("id", "licoes_a_aprender");
+
+  for (let index = 0; index < licoes.length; index += 1) {
+    const createLi = document.createElement("li");
+    createLi.innerText = licoes[index];
+    createUl.appendChild(createLi);
+  }
+  body.appendChild(createUl);
+}
+
 header();
 addImg();
 tarefasAprendidas();
+tarefasAAprender();
