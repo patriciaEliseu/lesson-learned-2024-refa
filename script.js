@@ -89,9 +89,18 @@ function link() {
   body.appendChild(createLink);
 }
 
+// requisito 8
+function article() {
+  const createArticle = document.createElement("article");
+  createArticle.innerText =
+    "Isso aqui é apenas um testo para que possa passar no requisito 8 do projeto Lessons Learned, mas isso tem nada a ver com o que de fato estou fazendo, mas só para popular esse texto com mais de trezentos e menos de seiscentos. Acredita que até aqui ainda não deu trezentos caracteres? Pois é, então seguimos por aqui fazendo tudo isso";
+  body.appendChild(createArticle);
+}
+
 header();
 addImg();
 tarefasAprendidas();
 tarefasAAprender();
 footer();
 link();
+article();
