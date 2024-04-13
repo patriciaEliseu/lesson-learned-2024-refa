@@ -17,7 +17,7 @@ function header() {
 function addImg() {
   const createImg = document.createElement("img");
   createImg.setAttribute("id", "minha_foto");
-  createImg.setAttribute("src", "perfil.jpg");
+  createImg.setAttribute("src", "../fotos/IMG_212a.jpg");
   body.appendChild(createImg);
 }
 

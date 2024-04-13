@@ -1,3 +1,21 @@
+
+header#cabecalho {
+  background-color:darkgreen;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  margin: auto;
+  padding: 1%;
+  border: chocolate;
+  font-size: 26px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 40px;
+}
 body {
     padding-top: 500px;
     background-color: rgb(253, 251, 251);
@@ -7,23 +25,7 @@ body {
     line-height: 20px;
 }
 
-#cabecalho {
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100px;
-    margin: auto;
-    padding: 1%;
-    border: chocolate;
-    font-size: 26px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
-    font-weight: bold;
-    font-style: italic;
-    line-height: 40px;
-}
+
 
 h1 {
     position: absolute;
@@ -34,8 +36,8 @@ h1 {
 #minha_foto {
     width: 150px;
     position: absolute;
-    top: 200px;
-    left: 100px;
+    top: 50px;
+    left: 600px;
 }
 
 .lado-esquerdo {
@@ -55,26 +57,12 @@ h1 {
 }
 
 footer {
-    position: fixed;
+
     bottom: 50px;
-    background-color: rgb(163, 163, 196);
+    background-color: #606060 ;
     width: 100%;
     height: 150px;
-    margin: auto;
+    margin: 0;
     border-width: medium;
     font-size: 22px;
-}
-
-
-/* background-color: rgb(253, 251, 251);
-} */
-
-#cabecalho {
-    position: fixed;
-    top: 0;
-}
-
-img {
-    margin-top: 100px;
-    width: 300px;
 }
